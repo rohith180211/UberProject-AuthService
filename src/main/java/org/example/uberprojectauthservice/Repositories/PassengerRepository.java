@@ -1,6 +1,6 @@
 package org.example.uberprojectauthservice.Repositories;
 
-import org.example.uberprojectauthservice.models.Passenger;
+import org.example.uberprojectentityservice.Models.Passenger;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -9,7 +9,5 @@ import java.util.Optional;
 @Repository
 public interface PassengerRepository extends JpaRepository<Passenger, Long> {
 
-    static Optional<Passenger> findPassengerByEmail(String email) {
-        return null;
-    }
+    Optional<Passenger> findPassengerByEmail(String email);
 }

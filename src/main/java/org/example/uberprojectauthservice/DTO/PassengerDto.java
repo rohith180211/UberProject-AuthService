@@ -1,10 +1,9 @@
 package org.example.uberprojectauthservice.DTO;
 
 import lombok.*;
-import org.example.uberprojectauthservice.models.Passenger;
+import org.example.uberprojectentityservice.Models.Passenger;
 
 import java.util.Date;
-import java.util.Locale;
 
 
 @Getter
